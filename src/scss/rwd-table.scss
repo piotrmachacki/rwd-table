@@ -1,0 +1,46 @@
+.rwd-table.use-rwd {
+	&.table {
+		display: block;
+	}
+	thead {
+		display: block;
+		tr {
+			position: absolute;
+			top: -9999px;
+			left: -9999px;
+		}
+	}
+	tbody {
+		display: block;
+	}
+	th {
+		display: block;
+	}
+	td {
+		display: block;
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 50%;
+		white-space: normal;
+		text-align: left;
+		&:before {
+			position: absolute;
+			top: 0;
+			left: 6px;
+			width: 45%;
+			height: 100%;
+			padding-right: 10px;
+			text-align: left;
+			font-weight: bold;
+			line-height: 1;
+			display: flex;
+			align-items: center;
+			content: attr(data-title);
+		}
+	}
+	tr {
+		display: block;
+		border: 1px solid #ccc;
+	}
+}

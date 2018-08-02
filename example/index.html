@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>RWD table</title>
+	<link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+	<link rel="stylesheet" href="rwd-table.css">
+</head>
+<body>
+
+
+<div class="container grid-lg mt-2">
+	<div class="columns">
+		<div class="column col-12">
+			<table class="table rwd-table">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>First Name</th>
+						<th>Last Name</th>
+						<th>Email</th>
+						<th>Phone</th>
+						<th>Gender</th>
+						<th>IP address</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>Elliot</td>
+						<td>Daymond</td>
+						<td>edaymond0@mapy.cz</td>
+						<td>899-213-7169</td>
+						<td>Male</td>
+						<td>12.223.85.125</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>Ricca</td>
+						<td>Lydiate</td>
+						<td>rlydiate1@ted.com</td>
+						<td>828-137-9529</td>
+						<td>Female</td>
+						<td>54.104.165.203</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>Gerri</td>
+						<td>Styles</td>
+						<td>gstyles2@studiopress.com</td>
+						<td>960-188-0767</td>
+						<td>Male</td>
+						<td>24.150.214.248</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>Latashia</td>
+						<td>Tolley</td>
+						<td>ltolley3@msn.com</td>
+						<td>702-954-4762</td>
+						<td>Female</td>
+						<td>83.21.232.157</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>Link</td>
+						<td>Dakers</td>
+						<td>ldakers4@rambler.ru</td>
+						<td>309-770-8650</td>
+						<td>Male</td>
+						<td>72.78.162.162</td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>Blondie</td>
+						<td>MacMorland</td>
+						<td>bmacmorland5@slate.com</td>
+						<td>464-458-4425</td>
+						<td>Female</td>
+						<td>194.230.39.232</td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>Gasparo</td>
+						<td>Gallaccio</td>
+						<td>ggallaccio6@dell.com</td>
+						<td>861-630-6113</td>
+						<td>Male</td>
+						<td>109.157.160.107</td>
+					</tr>
+					<tr>
+						<td>8</td>
+						<td>Bren</td>
+						<td>Stronach</td>
+						<td>bstronach7@washington.edu</td>
+						<td>661-351-1004</td>
+						<td>Female</td>
+						<td>184.101.53.252</td>
+					</tr>
+					<tr>
+						<td>9</td>
+						<td>Viviana</td>
+						<td>Kitt</td>
+						<td>vkitt8@tmall.com</td>
+						<td>665-217-9956</td>
+						<td>Female</td>
+						<td>25.136.107.229</td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>Morry</td>
+						<td>Macguire</td>
+						<td>mmacguire9@ftc.gov</td>
+						<td>906-621-9882</td>
+						<td>Male</td>
+						<td>79.152.73.228</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+<script src="rwd-table.js"></script>
+
+<script>
+	jQuery(document).ready(function($) {
+		$('table.rwd-table').rwdTable();
+	});
+</script>
+
+</body>
+</html>
